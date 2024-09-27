@@ -1,0 +1,23 @@
+server:
+  port: 6688
+  spring:
+  application:
+    name: demo
+  servlet:
+    context-path: /springboot-template
+
+
+#配置文件与对象映射
+config:
+  id: 123
+  name: zhangsan
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  aop:
+    proxy-target-class: false
+
+  main:
+    allow-bean-definition-overriding: true

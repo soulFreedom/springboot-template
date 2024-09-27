@@ -1,0 +1,15 @@
+server:
+  port: 6689
+  spring:
+  application:
+    name: demo
+
+#配置文件与对象映射
+config:
+  id: 123
+  name: zhangsan
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy=ANT_PATH_MATCHER
